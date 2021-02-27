@@ -263,6 +263,24 @@ const responseGoogle = (response) => {
                                         </Grid>
 
 
+                                        <div className={classes.margin} />
+
+
+                                        <Grid item container spacing={1}  className={classes.gridItem}
+                                                        direction="row"
+                                                        justify="space-between"
+                                                        alignItems="flex-start"
+                                        >
+                                                <Grid item xs={12} style={{textAlign: "center"}}>
+                                                <Link className={classes.sign_link} to="/login">Got an account Sign in ?</Link>
+
+                                                </Grid>
+                                                
+                                                
+                                        </Grid>
+
+
+
                              
                                 
 
